@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Shopping Cart</h1>
+
+    <div class="container">
+        <div class="number">0</div>
+    <div class="all-products">
+    <div>
+        <img src="image/orange.jpeg" alt="orange img">
+        <h3>orange</h3>
+        <h3>R 10</h3>
+        <button onclick="addToCart('orange',10)">Add</button>
+      </div>
+      <div>
+        <img src="image/apple.jpeg" alt="apple img">
+        <h3>apple</h3>
+        <h3>R 15</h3>
+        <button onclick="addToCart('apple',15)">Add</button>
+      </div>
+      <div>
+        <img src="image/banana.jpeg" alt="banana img">
+        <h3>banana</h3>
+        <h3>R 20</h3>
+        <button onclick="addToCart('banana',20)">Add</button>
+      </div>
+      <div>
+        <img src="image/lemon.jpeg" alt="lemon image">
+        <h3>lemon</h3>
+        <h3>R 5</h3>
+        <button onclick="addToCart('lemon',5)">Add</button>
+      </div>
+    </div>
+
+    <div class="cart-container">
+        <h2>shopping cart</h2>
+      <div class="cart-wrap"></div>
+      <div class="checkout"></div>
+
+    </div>
+    </div>
+
+      <script src="scripts.js"></script>
+</body>
+</html>
